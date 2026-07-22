@@ -1,0 +1,19 @@
+name = "Poli_IMAP"
+uuid = "e1d3a7c0-5b2f-4e8a-9c1d-0f3a2b4c5d6e"
+version = "4.0.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+SparseArrayKit = "a9a3c162-d163-4c15-8926-b8794fbefed2"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+[extras]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+
+[compat]
+julia = "1.11"
+ProgressMeter = "1"
+SparseArrayKit = "0.4"
+Symbolics = "7"
