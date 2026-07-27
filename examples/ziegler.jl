@@ -1,11 +1,8 @@
 using Poli_IMAP
 
 # the ziegler column (a follower-force double pendulum) under a pulsating
-# follower load. states x1..x4 are the two mechanical dofs; x5,x6 are a harmonic
-# block rotating at Ω that carries the time-periodic forcing. we build the 4-d
-# invariant manifold — autonomous master modes 1,2 plus nonautonomous forcing
-# modes 5,6 — in resonant style: first the autonomous part, then the
-# nonautonomous extension.
+# follower load. states x1..x4 are the two mechanical dofs and x5,x6 are a harmonic
+# block rotating at Ω that carries the time-periodic forcing
 
 const D = Complex{Float64}
 # variables μ, ξ₁
