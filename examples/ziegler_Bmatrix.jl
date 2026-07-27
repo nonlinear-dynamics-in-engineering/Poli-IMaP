@@ -4,9 +4,8 @@ using Poli_IMAP
 # B(x)·ẋ = F(x) with the mass matrix B(x) kept explicit instead of baking B⁻¹
 # into the field (see the figure). states x = [θ1, θ2, θ̇1, θ̇2, x5, x6]: the four
 # mechanical states plus the x5,x6 harmonic block (frequency Ω) carrying the
-# pulsating load. same parameters and parametrization settings as ziegler.jl;
-# only the B handling differs (so the higher-order terms differ but the linear
-# part, spectrum and settings match).
+# pulsating load. same parameters and parametrization settings as ziegler.jl
+
 
 const D = Complex{Float64}
 const μ  = 0.4408
